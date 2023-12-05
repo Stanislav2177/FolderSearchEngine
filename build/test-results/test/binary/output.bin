@@ -1,0 +1,17 @@
+NExtracted: C:\Users\Stanislav\Desktop\String-search\file1.txt from file1.txt
+NExtracted: C:\Users\Stanislav\Desktop\String-search\file2.txt from file2.txt
+NExtracted: C:\Users\Stanislav\Desktop\String-search\file3.txt from file3.txt
+NExtracted: C:\Users\Stanislav\Desktop\String-search\file4.txt from file4.txt
+NExtracted: C:\Users\Stanislav\Desktop\String-search\file5.txt from file5.txt
+root folder contains:
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file1.txt
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file2.txt
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.txt
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.zip
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file4.txt
+>C:\Users\Stanislav\Desktop\folder-to-test-specific\file5.txt
+"--------------------------------
+@Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
+@Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
+"--------------------------------
+ALooking into C:\Users\Stanislav\Desktop\folder-to-test-specific

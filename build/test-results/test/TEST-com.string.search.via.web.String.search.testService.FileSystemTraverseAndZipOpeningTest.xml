@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-05T17:19:20" hostname="DESKTOP-JJ54T3R" time="0.081">
+  <properties/>
+  <testcase name="testCountOfAllFilesWithZipOpener()" classname="com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest" time="0.081"/>
+  <system-out><![CDATA[Extracted: C:\Users\Stanislav\Desktop\String-search\file1.txt from file1.txt
+Extracted: C:\Users\Stanislav\Desktop\String-search\file2.txt from file2.txt
+Extracted: C:\Users\Stanislav\Desktop\String-search\file3.txt from file3.txt
+Extracted: C:\Users\Stanislav\Desktop\String-search\file4.txt from file4.txt
+Extracted: C:\Users\Stanislav\Desktop\String-search\file5.txt from file5.txt
+root folder contains:
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file1.txt
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file2.txt
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.txt
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.zip
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file4.txt
+C:\Users\Stanislav\Desktop\folder-to-test-specific\file5.txt
+--------------------------------
+Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
+Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
+--------------------------------
+Looking into C:\Users\Stanislav\Desktop\folder-to-test-specific
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
