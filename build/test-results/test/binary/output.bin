@@ -1,17 +1,20 @@
-NExtracted: C:\Users\Stanislav\Desktop\String-search\file1.txt from file1.txt
-NExtracted: C:\Users\Stanislav\Desktop\String-search\file2.txt from file2.txt
-NExtracted: C:\Users\Stanislav\Desktop\String-search\file3.txt from file3.txt
-NExtracted: C:\Users\Stanislav\Desktop\String-search\file4.txt from file4.txt
-NExtracted: C:\Users\Stanislav\Desktop\String-search\file5.txt from file5.txt
 root folder contains:
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file1.txt
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file2.txt
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.txt
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file3.zip
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file4.txt
->C:\Users\Stanislav\Desktop\folder-to-test-specific\file5.txt
+;C:\Users\Stanislav\Github\folder-to-test-zip\CCleaner.zip
+5C:\Users\Stanislav\Github\folder-to-test-zip\folder
+6C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+7C:\Users\Stanislav\Github\folder-to-test-zip\test.txt
 "--------------------------------
-@Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
-@Found link: C:\Users\Stanislav\Desktop\folder-to-test-specific
+:Found link: C:\Users\Stanislav\Github\folder-to-test-zip
+:Found link: C:\Users\Stanislav\Github\folder-to-test-zip
+AFound link: C:\Users\Stanislav\Github\folder-to-test-zip\folder
+BFound link: C:\Users\Stanislav\Github\folder-to-test-zip\folder5
 "--------------------------------
-ALooking into C:\Users\Stanislav\Desktop\folder-to-test-specific
+DLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip
+KLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip\folder
+LLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+.C:\Users\Stanislav\Github\folder-to-test-zip
+ZFound link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip CCleaner.zip
+5C:\Users\Stanislav\Github\folder-to-test-zip\folder
+6C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+_Found link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip\folder5 file1.zip
+_Found link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip\folder5 file3.zip
