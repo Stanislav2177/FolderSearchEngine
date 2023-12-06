@@ -13,7 +13,10 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'gradle test --tests "com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest, com.string.search.via.web.String.search.testService.HtmlOpenerTest, com.string.search.via.web.String.search.testService.SearchEngineTest"'
+                script {
+                    // Run your tests using Gradle
+                    sh './gradlew :FolderSearchEngine:test --tests "com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest, com.string.search.via.web.String.search.testService.HtmlOpenerTest, com.string.search.via.web.String.search.testService.SearchEngineTest"'
+                }
             }
         }
     }
