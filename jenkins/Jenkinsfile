@@ -1,16 +1,19 @@
-stage('Test') {
-    steps {
-        script {
-            // Run the specific service tests
-			./gradlew :FolderSearchEngine:test --tests "com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest, com.string.search.via.web.String.search.testService.HtmlOpenerTest, com.string.search.via.web.String.search.testService.SearchEngineTest"
-            
-            // Run the app tests
-            sh './gradlew :your-app-module:test --tests "com.string.search.via.web.String.search.*"'
+pipeline {
+    agent {
+        docker {
+            image 'gradle:latest'
+            args '-v /root/.gradle:/root/.gradle'
         }
-        post {
-            always {
-                // Adjust the path pattern based on your actual test results location
-                junit '**/build/test-results/test/*.xml'
+    }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'gradle build'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'gradle test --tests "com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest, com.string.search.via.web.String.search.testService.HtmlOpenerTest, com.string.search.via.web.String.search.testService.SearchEngineTest"'
             }
         }
     }
