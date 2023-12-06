@@ -38,7 +38,7 @@ public class FileSystemTraverseAndZipOpeningTest {
 
     @Test
     public void testForArchiveFolders(){
-        String root = "C:\\Users\\Stanislav\\Github\\folder-to-test-zip";
+        String root = "\\home\\Github\\folder-to-test-zip";
         List<String> archivesFound = new ArrayList<>();
 
         archivesFound = traverse.searchForArchivesInFolder(root);
