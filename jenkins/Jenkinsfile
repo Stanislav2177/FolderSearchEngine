@@ -1,63 +1,16 @@
-pipeline {
-    agent any
-
-    environment {
-        GRADLE_HOME = tool 'Gradle'
-        PATH = "$GRADLE_HOME/bin:$PATH"
-    }
-
-    stages {
-        stage('Checkout') {
-            steps {
-                script {
-                    checkout scm
-                }
-            }
+stage('Test') {
+    steps {
+        script {
+            // Run the specific service tests
+			./gradlew :FolderSearchEngine:test --tests "com.string.search.via.web.String.search.testService.FileSystemTraverseAndZipOpeningTest, com.string.search.via.web.String.search.testService.HtmlOpenerTest, com.string.search.via.web.String.search.testService.SearchEngineTest"
+            
+            // Run the app tests
+            sh './gradlew :your-app-module:test --tests "com.string.search.via.web.String.search.*"'
         }
-
-        stage('Build') {
-            steps {
-                script {
-                    withGradle {
-                        sh 'gradle build'
-                    }
-                }
-            }
-        }
-
-        stage('Test') {
-            steps {
-                script {
-                    withGradle {
-                        sh 'gradle test'
-                    }
-                }
-            }
-            post {
-                always {
-                    junit '**/build/test-results/test/*.xml'
-                }
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                script {
-                    // Add deployment steps here, if applicable
-                }
-            }
-        }
-    }
-}
-
-def withGradle(Closure body) {
-    docker.image('gradle:jdk11').inside {
-        withEnv(['GRADLE_USER_HOME=/home/gradle/cache']) {
-            withCredentials([usernamePassword(credentialsId: 'your-credentials-id', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-                sh "echo -n $PASSWORD | docker login -u $USERNAME --password-stdin your-docker-registry"
-                sh 'chmod +x gradlew'
-                sh './gradlew --version'
-                body()
+        post {
+            always {
+                // Adjust the path pattern based on your actual test results location
+                junit '**/build/test-results/test/*.xml'
             }
         }
     }
