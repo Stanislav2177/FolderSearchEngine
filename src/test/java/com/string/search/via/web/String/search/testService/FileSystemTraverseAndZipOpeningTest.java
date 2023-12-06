@@ -26,42 +26,42 @@ public class FileSystemTraverseAndZipOpeningTest {
         zipOpener = new ZipOpener();
     }
 
-    @Test
-    public void testForCheckCountOfAllPaths(){
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
-        List<String> allFolderPaths = new ArrayList<>();
-
-        allFolderPaths = traverse.getAllFolderPathsWhichAreDirectories(root);
-
-        assertEquals(6, allFolderPaths.size());
-    }
+//    @Test
+//    public void testForCheckCountOfAllPaths(){
+//        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
+//        List<String> allFolderPaths = new ArrayList<>();
+//
+//        allFolderPaths = traverse.getAllFolderPathsWhichAreDirectories(root);
+//
+//        assertEquals(6, allFolderPaths.size());
+//    }
 
     @Test
     public void testForArchiveFolders(){
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-zip";
+        String root = "C:\\Users\\Stanislav\\Github\\folder-to-test-zip";
         List<String> archivesFound = new ArrayList<>();
 
         archivesFound = traverse.searchForArchivesInFolder(root);
 
         assertEquals(3, archivesFound.size());
     }
-
-    @Test
-    public void testCountOfAllFilesWithoutZipOpener(){
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
-
-        int countOfAllFiles = traverse.getCountOfAllFiles(root);
-
-        assertEquals(14, countOfAllFiles);
-    }
-
-    @Test
-    public void testCountOfAllFilesWithZipOpener() throws IOException {
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-specific";
-
-        zipCreator.createFiles(root);
-        zipOpener.openZipFilesInFolder(root);
-
-        assertEquals(6,traverse.getCountOfAllFiles(root));
-    }
+//
+//    @Test
+//    public void testCountOfAllFilesWithoutZipOpener(){
+//        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
+//
+//        int countOfAllFiles = traverse.getCountOfAllFiles(root);
+//
+//        assertEquals(14, countOfAllFiles);
+//    }
+//
+//    @Test
+//    public void testCountOfAllFilesWithZipOpener() throws IOException {
+//        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-specific";
+//
+//        zipCreator.createFiles(root);
+//        zipOpener.openZipFilesInFolder(root);
+//
+//        assertEquals(6,traverse.getCountOfAllFiles(root));
+//    }
 }

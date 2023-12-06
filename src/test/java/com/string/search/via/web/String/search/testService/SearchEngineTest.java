@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 public class SearchEngineTest {
 
 
-    @Test
-    public void testSearchInHtml(){
-        String path = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-html";
-        String search = "Ipsum";
-
-
-
-    }
+//    @Test
+//    public void testSearchInHtml(){
+//        String path = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-html";
+//        String search = "Ipsum";
+//
+//
+//
+//    }
 }
