@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.string.search.via.web.String.search.testService.SearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-07T16:21:25" hostname="DESKTOP-JJ54T3R" time="0.063">
+  <properties/>
+  <testcase name="testSearchInBinary()" classname="com.string.search.via.web.String.search.testService.SearchEngineTest" time="0.063"/>
+  <system-out><![CDATA[Search Engine
+root folder contains:
+Invalid folder path
+--------------------------------
+Found link: C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+Found link: C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+--------------------------------
+root folder contains:
+Invalid folder path
+--------------------------------
+Found link: C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+Found link: C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+--------------------------------
+Link to be searched = C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+C:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+Total 0 occurrences of "FF" inC:\Users\Stanislav\FolderSearchEngine\foldersForTesting\folder-to-test-binary
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

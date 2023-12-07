@@ -28,7 +28,7 @@ public class FileSystemTraverseAndZipOpeningTest {
 
     @Test
     public void testForCheckCountOfAllPaths(){
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
+        String root = "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test";
         List<String> allFolderPaths = new ArrayList<>();
 
         allFolderPaths = traverse.getAllFolderPathsWhichAreDirectories(root);
@@ -48,7 +48,7 @@ public class FileSystemTraverseAndZipOpeningTest {
 
     @Test
     public void testCountOfAllFilesWithoutZipOpener(){
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
+        String root = "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test";
 
         int countOfAllFiles = traverse.getCountOfAllFiles(root);
 
@@ -58,7 +58,7 @@ public class FileSystemTraverseAndZipOpeningTest {
     @Test
     public void testCountOfAllFilesWithZipOpener() throws IOException {
 //        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-specific";
-        String root = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-traverse-and-unzip";
+        String root = "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test-traverse-and-unzip";
         System.out.println(root);
 
         zipCreator.createFiles(root);

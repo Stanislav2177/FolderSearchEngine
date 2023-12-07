@@ -26,7 +26,7 @@ public class SearchEngineTest {
 
     @Test
     public void testSearchInHtml() throws IOException {
-        String path = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-html";
+        String path = "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test-html";
         String search = "Ipsum";
 
         Map<String, List<Integer>> stringListMap = searchEngine.searchInHtmlFile(path, search);
@@ -39,7 +39,7 @@ public class SearchEngineTest {
 
     @Test
     public void testSearchInBinary() throws IOException{
-        String path = "C:\\Users\\Stanislav\\Desktop\\folder-to-test-binary";
+        String path = "C:\\Users\\Stanislav\\FolderSearchEngine\\Github\\foldersForTesting\\folder-to-test-binary";
         String search = "FF";
 
         Map<String, List<Integer>> stringListMap = searchEngine.searchInBinaryFile(path, search);
@@ -50,7 +50,7 @@ public class SearchEngineTest {
 
     @Test
     public void testToTraverseAndUnzipAdnSearchForSpecificString() throws IOException {
-        String root =  "C:\\Users\\Stanislav\\Desktop\\folder-to-test";
+        String root =  "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test";
 
         int count = 0;
         Map<String, List<Integer>> stringListMap
