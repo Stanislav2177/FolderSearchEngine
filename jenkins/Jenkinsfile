@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        GRADLE_HOME = tool 'Gradle'
+        PATH = "$GRADLE_HOME/bin:$PATH"
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -11,10 +16,33 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'chmod +x gradlew'
-                    sh './gradlew clean build'
+                   // Otherwise, use the globally installed Gradle
+                    sh "gradle build"
                 }
             }
         }
-    }  
+
+        stage('Test') {
+            steps {
+                script {
+          
+                    sh "gradle test"
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    echo "test"
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+		    echo "test"
+        }
+    }
 }
