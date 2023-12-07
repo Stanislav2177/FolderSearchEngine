@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GRADLE_HOME = tool 'GRADLE_HOME'
-        PATH = "$GRADLE_HOME/bin:$PATH"
+        PATH = "$GRADLE_HOME/bin;$PATH" 
     }
 
     stages {
@@ -16,8 +16,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                   // Otherwise, use the globally installed Gradle
-                    sh "./gradlew build"
+                    // Use the globally installed Gradle
+                    bat "./gradlew build"
                 }
             }
         }
@@ -25,8 +25,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-          
-                    sh "gradle test"
+                    bat "gradle test"
                 }
             }
         }
@@ -42,7 +41,7 @@ pipeline {
 
     post {
         always {
-		    echo "test"
+            echo "test"
         }
     }
 }
