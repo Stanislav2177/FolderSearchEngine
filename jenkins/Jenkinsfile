@@ -1,26 +1,20 @@
 pipeline {
-    agent {
-        docker {
-            image 'gradle:latest'
-            args '-v /root/.gradle:/root/.gradle'
-        }
-    }
+    agent any
+
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Build') {
             steps {
                 script {
-                    echo 'Building...'
-                    sh 'gradle build'
+                    sh 'chmod +x gradlew'
+                    sh './gradlew clean build'
                 }
             }
         }
-        stage('Test') {
-            steps {
-                script {
-                    echo 'Running tests...'
-                    sh './gradlew test'
-                }
-            }
-        }
-    }
+    }  
 }
