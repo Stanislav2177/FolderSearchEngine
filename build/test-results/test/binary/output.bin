@@ -1,8 +1,68 @@
+Search Engine
 root folder contains:
-Invalid folder path
+9C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+<C:\Users\Stanislav\Desktop\folder-to-test-binary\image.jpg
+7C:\Users\Stanislav\Desktop\folder-to-test-binary\test
 "--------------------------------
--Found link: \home\Github\folder-to-test-zip
--Found link: \home\Github\folder-to-test-zip
+>Found link: C:\Users\Stanislav\Desktop\folder-to-test-binary
+>Found link: C:\Users\Stanislav\Desktop\folder-to-test-binary
+EFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+CFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\test
 "--------------------------------
-7Link to be searched = \home\Github\folder-to-test-zip
-!\home\Github\folder-to-test-zip
+root folder contains:
+9C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+<C:\Users\Stanislav\Desktop\folder-to-test-binary\image.jpg
+7C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+"--------------------------------
+>Found link: C:\Users\Stanislav\Desktop\folder-to-test-binary
+>Found link: C:\Users\Stanislav\Desktop\folder-to-test-binary
+EFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+CFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+"--------------------------------
+HLink to be searched = C:\Users\Stanislav\Desktop\folder-to-test-binary
+OLink to be searched = C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+MLink to be searched = C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+2C:\Users\Stanislav\Desktop\folder-to-test-binary
+9C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+7C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+`Found link which contains .zip C:\Users\Stanislav\Desktop\folder-to-test-binary\test test2.zip
+@Unziping C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+AC:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.zip
+OReceived path C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.zip
+ZipEntry test.png
+YExtracted: C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test.png from test.png
+[Extracted: C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.png from test2.png
+root folder contains:
+JC:\Users\Stanislav\Desktop\folder-to-test-binary\folder\проект.png
+"--------------------------------
+EFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+EFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+"--------------------------------
+OLink to be searched = C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+9C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+root folder contains:
+@C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test.png
+AC:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.png
+AC:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.zip
+"--------------------------------
+CFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+CFound link: C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+"--------------------------------
+MLink to be searched = C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+7C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+`Found link which contains .zip C:\Users\Stanislav\Desktop\folder-to-test-binary\test test2.zip
+@Unziping C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+AC:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.zip
+OReceived path C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.zip
+ZipEntry test.png
+YExtracted: C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test.png from test.png
+[Extracted: C:\Users\Stanislav\Desktop\folder-to-test-binary\test\test2.png from test2.png
+PTotal 1 occurrences of "FF" inC:\Users\Stanislav\Desktop\folder-to-test-binary
+XTotal 17 occurrences of "FF" inC:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+WTotal 120 occurrences of "FF" inC:\Users\Stanislav\Desktop\folder-to-test-binary\test
+7Link:C:\Users\Stanislav\Desktop\folder-to-test-binary
+1
+>Link:C:\Users\Stanislav\Desktop\folder-to-test-binary\folder
+17
+<Link:C:\Users\Stanislav\Desktop\folder-to-test-binary\test
+120

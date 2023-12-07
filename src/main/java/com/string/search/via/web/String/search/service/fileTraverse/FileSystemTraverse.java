@@ -71,7 +71,8 @@ public class FileSystemTraverse {
     }
 
     public int getCountOfAllFiles(String folderPath){
-        List<String> allFolderPathsWhichAreDirectories = getAllFolderPathsWhichAreDirectories(folderPath);
+        List<String> allFolderPathsWhichAreDirectories
+                = getAllFolderPathsWhichAreDirectories(folderPath);
         int total = 0;
 
         for (String allFolderPathsWhichAreDirectory : allFolderPathsWhichAreDirectories) {

@@ -14,31 +14,40 @@ public class ZipOpener {
     public void openZipFilesInFolder(String folderPath) throws IOException {
         File folder = new File(folderPath);
         File[] files = folder.listFiles();
+        System.out.println("Unziping " + folderPath);
 
         if (files != null) {
             for (File file : files) {
-                if (file.isFile() && file.getName().toLowerCase().endsWith(".zip")) {
-                    openZipFile(file.getAbsolutePath());
+                if (file.isFile() &&
+                        file.getName().toLowerCase().endsWith(".zip")) {
+                    System.out.println(file.getAbsolutePath());
+                    openZipFile(file.getAbsolutePath(), folderPath);
                 }
             }
         }
     }
 
-    public void openZipFile(String path) throws IOException {
+    public void openZipFile(String path, String root) throws IOException {
         try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(path))) {
+            System.out.println("Received path " + path);
             ZipEntry zipEntry = zipInputStream.getNextEntry();
+            System.out.println("ZipEntry " + zipEntry.getName());
+
+
 
             while (zipEntry != null) {
                 if (!zipEntry.isDirectory()) {
-                    String fileName = zipEntry.getName();
-                    String fileExtension =
-                            fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();
+                    String fileName = new File(zipEntry.getName()).getName();
+                    String fileExtension = fileName
+                            .substring(fileName.lastIndexOf('.') + 1)
+                            .toLowerCase();
 
                     switch (fileExtension) {
                         case "txt", "html", "png", "jpg" -> {
-                            File newFile = new File(fileName);
+                            File newFile = new File(root, fileName);
                             extractFile(zipInputStream, newFile);
-                            System.out.println("Extracted: " + newFile.getAbsolutePath() + " from " + zipEntry.getName());
+                            System.out.println("Extracted: " +
+                                    newFile.getAbsolutePath() + " from " + zipEntry.getName());
                         }
                         default -> {
                         }
@@ -49,6 +58,7 @@ public class ZipOpener {
             }
         }
     }
+
 
     private void extractFile(ZipInputStream zipInputStream, File newFile) throws IOException {
         try (FileOutputStream fileOutputStream = new FileOutputStream(newFile)) {
