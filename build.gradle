@@ -26,13 +26,16 @@ dependencies {
 	implementation 'org.jsoup:jsoup:1.17.1'
 	implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 	implementation 'org.mockito:mockito-junit-jupiter:5.7.0'
+	implementation 'mysql:mysql-connector-java:8.0.28'
+//	implementation 'org.hibernate:hibernate-gradle-plugin:5.6.15.Final'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//	implementation 'org.springframework:spring-jdbc:3.1.0.RELEASE'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
-//	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-//	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.mockito:mockito-core:3.11.2'
+
 }
 
 test {

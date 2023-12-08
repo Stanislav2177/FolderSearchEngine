@@ -29,7 +29,6 @@ public class SearchEngineTest {
 
         Map<String, List<Integer>> stringListMap = searchEngine.searchInHtmlFile(path, search);
 
-
         for (String s : stringListMap.keySet()) {
             assert(!stringListMap.get(s).isEmpty());
         }
@@ -59,6 +58,19 @@ public class SearchEngineTest {
         }
 
         assertEquals(count, 58);
+    }
 
+    @Test
+    public void testToSearchForPlain() throws IOException {
+        String root = "C:\\Users\\Stanislav\\Github\\FolderSearchEngine\\foldersForTesting\\folder-to-test";
+        Map<String, List<Integer>> stringListMap
+                = searchEngine.traverseAndSearchByLink(root, "This is what we are looking for");
+
+        int targetIdx = 0;
+        for (String s : stringListMap.keySet()) {
+            targetIdx = stringListMap.get(s).get(0);
+        }
+
+        assertEquals(0, targetIdx);
     }
 }

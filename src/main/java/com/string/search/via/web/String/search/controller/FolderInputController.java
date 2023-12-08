@@ -2,8 +2,12 @@ package com.string.search.via.web.String.search.controller;
 
 
 import com.string.search.via.web.String.search.dto.JsonResponse;
+import com.string.search.via.web.String.search.entity.RequestEntity;
+import com.string.search.via.web.String.search.service.auditingService.SaveRequest;
 import com.string.search.via.web.String.search.service.documentReader.HtmlOpener;
 import com.string.search.via.web.String.search.service.engine.SearchEngine;
+import com.string.search.via.web.String.search.service.ipService.RequestService;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,19 +24,26 @@ public class FolderInputController {
 
     @Autowired
     private SearchEngine searchEngine;
+    @Autowired
+    private RequestService requestService;
+
+    @Autowired
+    private SaveRequest saveRequest;
 
     @GetMapping("/search")
     public List<ResponseEntity<JsonResponse>> search(
             @RequestParam("location") String location,
             @RequestParam("text") String text,
-            @RequestParam("type") String type
+            @RequestParam("type") String type,
+            HttpServletRequest request
     ) throws IOException {
         Map<String, List<Integer>> map = new HashMap<>();
+        String clientIp = requestService.getClientIp(request);
 
-        System.out.println(type);
+        saveRequest.save(clientIp, type, "Get" ,location, text);
 
         if (type.equals("plain")) {
-            map = searchEngine.searchInFile(location, text);
+            map = searchEngine.traverseAndSearchByLink(location, text);
         } else if (type.equals("binary")) {
             map = searchEngine.searchInBinaryFile(location, text);
         } else if (type.equals("html")) {
@@ -87,6 +98,14 @@ public class FolderInputController {
         }
 
         return list;
+    }
+
+
+    @GetMapping("/auditing")
+    public ResponseEntity<List<RequestEntity>> getAll(){
+        List<RequestEntity> all = saveRequest.getAll();
+
+        return ResponseEntity.ok(all);
     }
 
 }

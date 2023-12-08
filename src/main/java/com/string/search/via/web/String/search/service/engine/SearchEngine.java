@@ -31,7 +31,6 @@ public class SearchEngine {
     }
 
     public Map<String, List<Integer>> traverseAndSearchByLink(String path, String search) throws IOException {
-        System.out.println("Search Engine: ");
         List<String> allFolderPathsWhichAreDirectories =
                 traverse.getAllFolderPathsWhichAreDirectories(path);
 
@@ -45,29 +44,28 @@ public class SearchEngine {
 
         for (String link : allFolderPathsWhichAreDirectories) {
             List<Integer> integers = fileOpener.openFile(link, search);
-            linkToListOfIndexes.put(link, integers);
+            if(!integers.isEmpty()){
+                linkToListOfIndexes.put(link, integers);
+            }
         }
 
-        printMapWithLists(linkToListOfIndexes);
+
+//        printMapWithLists(linkToListOfIndexes);
 
         return linkToListOfIndexes;
     }
 
     public Map<String, List<Integer>> searchInFile(String path, String search){
-        System.out.println("Search Engine");
-
         List<Integer> integers = fileOpener.openFile(path, search);
 
         Map<String, List<Integer>> linkToListOfIndexes = new HashMap<>();
         linkToListOfIndexes.put(path, integers);
-        printMapWithLists(linkToListOfIndexes);
+//        printMapWithLists(linkToListOfIndexes);
 
         return linkToListOfIndexes;
     }
 
     public Map<String, List<Integer>> searchInBinaryFile(String path, String search) throws IOException {
-        System.out.println("Search Engine");
-
         List<String> allFolderPathsWhichAreDirectories =
                 traverse.getAllFolderPathsWhichAreDirectories(path);
 
@@ -93,7 +91,7 @@ public class SearchEngine {
 
 //        printMapWithIntegers(map);
 
-        printMapWithLists(map);
+//        printMapWithLists(map);
         return map;
     }
 
