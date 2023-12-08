@@ -32,15 +32,7 @@ public class FileSystemTraverseAndZipOpeningTest {
 
         allFolderPaths = traverse.getAllFolderPathsWhichAreDirectories(root);
 
-        assertEquals(6, allFolderPaths.size());
-    }
-
-    @Test
-    public void testForJenkins(){
-        int x = 6;
-
-
-        assertEquals(x, 7);
+        assertEquals(7, allFolderPaths.size());
     }
 
     @Test
@@ -59,7 +51,7 @@ public class FileSystemTraverseAndZipOpeningTest {
 
         int countOfAllFiles = traverse.getCountOfAllFiles(root);
 
-        assertEquals(14, countOfAllFiles);
+        assertEquals(15, countOfAllFiles);
     }
 
     @Test

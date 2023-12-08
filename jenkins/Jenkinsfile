@@ -21,6 +21,15 @@ pipeline {
                 }
             }
         }
+		stage('TestDB'){
+			steps{
+				script{
+					def mysqlUrl = 'jdbc:mysql://localhost:3306/auditingRequests?createDatabaseIfNotExist=true'
+					def mysqlUsername = 'root'
+					def mysqlPassword = '34153'
+				}
+			}
+		}
 
         stage('Test') {
             steps {

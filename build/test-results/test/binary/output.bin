@@ -13,112 +13,510 @@
 qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
 xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
 "--------------------------------
-root folder contains:
-UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
-YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
-"--------------------------------
-[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
-[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
-aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-"--------------------------------
-eLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
-kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-OC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
-UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-root folder contains:
-_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\file1.txt
-\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-^C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\test.txt
-"--------------------------------
-aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-"--------------------------------
-kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
-\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-root folder contains:
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\data.txt
-fC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\file1.txt
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\test.txt
-"--------------------------------
-hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-"--------------------------------
-rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
-root folder contains:
-dC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\file1.txt
-_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-cC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test.txt
-"--------------------------------
-fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-"--------------------------------
-pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
-_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-root folder contains:
-iC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\file1.txt
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-hC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\test.txt
-"--------------------------------
-kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-"--------------------------------
-uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-root folder contains:
-nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\datz.txt
-oC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\file1.txt
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\test.txt
-"--------------------------------
-qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-"--------------------------------
-{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-root folder contains:
-wC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String\String.txt
-"--------------------------------
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-"--------------------------------
-ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
-lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+\Looking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+bLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+iLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+gLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+lLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+rLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+yLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+root folder contains:
+UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
+YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
+"--------------------------------
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+"--------------------------------
+bC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+	Created
+kUnziping C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\test1.zip
+zReceived path C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\test1.zip
+ZipEntry tes/asasf.txt
+äExtracted: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\asasf.txt from tes/asasf.txt
+åExtracted: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\asfas.txt from test1/asfas.txt
+åExtracted: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\asfas.txt from test2/asfas.txt
+bC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+root folder contains:
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\asasf.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\asfas.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\file1.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\file2.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\file3.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\file4.txt
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\file5.txt
+hC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papka
+mC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\test1.zip
+"--------------------------------
+nFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+nFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+tFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papka
+{Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papka\folder
+yFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka
+~Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka\test
+ÑFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka\test\hello
+"--------------------------------
+oLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip
+uLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papka
+|Looking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papka\folder
+zLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka
+Looking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka\test
+ÖLooking into C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-traverse-and-unzip\papkapapka\test\hello
+root folder contains:
+;C:\Users\Stanislav\Github\folder-to-test-zip\CCleaner.zip
+5C:\Users\Stanislav\Github\folder-to-test-zip\folder
+6C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+7C:\Users\Stanislav\Github\folder-to-test-zip\test.txt
+"--------------------------------
+:Found link: C:\Users\Stanislav\Github\folder-to-test-zip
+:Found link: C:\Users\Stanislav\Github\folder-to-test-zip
+AFound link: C:\Users\Stanislav\Github\folder-to-test-zip\folder
+BFound link: C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+"--------------------------------
+DLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip
+KLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip\folder
+LLink to be searched = C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+.C:\Users\Stanislav\Github\folder-to-test-zip
+ZFound link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip CCleaner.zip
+5C:\Users\Stanislav\Github\folder-to-test-zip\folder
+6C:\Users\Stanislav\Github\folder-to-test-zip\folder5
+_Found link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip\folder5 file1.zip
+_Found link which contains .zip C:\Users\Stanislav\Github\folder-to-test-zip\folder5 file3.zip
+root folder contains:
+Invalid folder path
+"--------------------------------
+bFound link: C:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+bFound link: C:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+"--------------------------------
+root folder contains:
+Invalid folder path
+"--------------------------------
+bFound link: C:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+bFound link: C:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+"--------------------------------
+lLink to be searched = C:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+VC:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+tTotal 0 occurrences of "FF" inC:\Users\Stanislav\FolderSearchEngine\Github\foldersForTesting\folder-to-test-binary
+root folder contains:
+^C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html\data.html
+"--------------------------------
+`Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+`Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+"--------------------------------
+root folder contains:
+^C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html\data.html
+"--------------------------------
+`Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+`Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+"--------------------------------
+jLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+TC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test-html
+][6, 6, 14, 6, 81, 452, 568, 6, 150, 374, 34, 314, 435, 687, 28, 47, 246, 351, 603, 653, 19]
+	root folder contains:
+	UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
+	YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
+	"--------------------------------
+	[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	root folder contains:
+	UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
+	YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
+	"--------------------------------
+	[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	eLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	OC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+	UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	root folder contains:
+	_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\file1.txt
+	\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	^C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\test.txt
+	"--------------------------------
+	aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	"--------------------------------
+	kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+	\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	root folder contains:
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\data.txt
+	fC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\file1.txt
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\test.txt
+	"--------------------------------
+	hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	"--------------------------------
+	rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+	root folder contains:
+	dC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\file1.txt
+	_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	cC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test.txt
+	"--------------------------------
+	fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+	_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	root folder contains:
+	iC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\file1.txt
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	hC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\test.txt
+	"--------------------------------
+	kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	root folder contains:
+	nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\datz.txt
+	oC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\file1.txt
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\test.txt
+	"--------------------------------
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	root folder contains:
+	wC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String\String.txt
+	"--------------------------------
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	"--------------------------------
+	ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+	lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+root folder contains:
+
+UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
+
+YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
+
+"--------------------------------
+
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+root folder contains:
+
+UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+XC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test.txt
+
+YC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\test2.txt
+
+"--------------------------------
+
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+[Found link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+eLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+OC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test
+
+UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+root folder contains:
+
+_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\file1.txt
+
+\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+^C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\test.txt
+
+"--------------------------------
+
+aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+aFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+"--------------------------------
+
+kLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+UC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka
+
+\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+root folder contains:
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\data.txt
+
+fC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\file1.txt
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder\test.txt
+
+"--------------------------------
+
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+hFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+"--------------------------------
+
+rLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+\C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papka\folder
+
+root folder contains:
+
+dC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\file1.txt
+
+_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+cC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test.txt
+
+"--------------------------------
+
+fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+fFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+pLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+ZC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka
+
+_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+root folder contains:
+
+iC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\file1.txt
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+hC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\test.txt
+
+"--------------------------------
+
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+kFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+uLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+_C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+root folder contains:
+
+nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\datz.txt
+
+oC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\file1.txt
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+nC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\test.txt
+
+"--------------------------------
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+qFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+{Link to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+eC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+root folder contains:
+
+wC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String\String.txt
+
+"--------------------------------
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+"--------------------------------
+
+ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+
+lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
+ ˆ10:00:58.308 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.string.search.via.web.String.search.StringSearchApplicationTests]: StringSearchApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ ü10:00:58.584 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.string.search.via.web.String.search.StringSearchApplication for test class com.string.search.via.web.String.search.StringSearchApplicationTests
+ 
+ )  .   ____          _            __ _ _
+ * /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+ +( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ , \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+ +  '  |____| .__|_| |_|_| |_\__, | / / / /
+ * =========|_|==============|___/=/_/_/_/
+ , :: Spring Boot ::                (v3.2.0)
+ 
+ ¯2023-12-08T10:00:59.514+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Starting StringSearchApplicationTests using Java 21.0.1 with PID 5244 (started by Stanislav in C:\Users\Stanislav\Github\FolderSearchEngine)
+ Ø2023-12-08T10:00:59.517+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : No active profile set, falling back to 1 default profile: "default"
+ ß2023-12-08T10:01:01.313+02:00  INFO 5244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ ¡2023-12-08T10:01:01.451+02:00  INFO 5244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+ •2023-12-08T10:01:02.642+02:00  INFO 5244 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ ù2023-12-08T10:01:02.838+02:00  INFO 5244 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+ í2023-12-08T10:01:02.952+02:00  INFO 5244 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+ £2023-12-08T10:01:03.653+02:00  INFO 5244 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+ Ü2023-12-08T10:01:03.732+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+ µ2023-12-08T10:01:04.639+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e94b7d
+ ã2023-12-08T10:01:04.646+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ â2023-12-08T10:01:04.875+02:00  WARN 5244 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ ﬁ2023-12-08T10:01:07.440+02:00  INFO 5244 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ Ø2023-12-08T10:01:07.553+02:00  INFO 5244 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ £2023-12-08T10:01:09.370+02:00  WARN 5244 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ ø2023-12-08T10:01:12.009+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Started StringSearchApplicationTests in 13.091 seconds (process running for 17.564)
