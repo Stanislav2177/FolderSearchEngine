@@ -11,8 +11,6 @@ import java.util.List;
 
 @Service
 public class BinaryOpener {
-
-
     public List<Integer> openBinaryFolder(String path, String search) throws IOException {
         File folder = new File(path);
         File[] filesInFolder = folder.listFiles();

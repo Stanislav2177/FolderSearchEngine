@@ -493,8 +493,8 @@ xFound link: C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\fold
 ÇLink to be searched = C:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
 
 lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\papkapapka\test\hello\String
- ˆ10:00:58.308 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.string.search.via.web.String.search.StringSearchApplicationTests]: StringSearchApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
- ü10:00:58.584 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.string.search.via.web.String.search.StringSearchApplication for test class com.string.search.via.web.String.search.StringSearchApplicationTests
+ ˆ17:08:33.797 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.string.search.via.web.String.search.StringSearchApplicationTests]: StringSearchApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ ü17:08:34.081 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.string.search.via.web.String.search.StringSearchApplication for test class com.string.search.via.web.String.search.StringSearchApplicationTests
  
  )  .   ____          _            __ _ _
  * /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -504,19 +504,19 @@ lC:\Users\Stanislav\Github\FolderSearchEngine\foldersForTesting\folder-to-test\p
  * =========|_|==============|___/=/_/_/_/
  , :: Spring Boot ::                (v3.2.0)
  
- ¯2023-12-08T10:00:59.514+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Starting StringSearchApplicationTests using Java 21.0.1 with PID 5244 (started by Stanislav in C:\Users\Stanislav\Github\FolderSearchEngine)
- Ø2023-12-08T10:00:59.517+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : No active profile set, falling back to 1 default profile: "default"
- ß2023-12-08T10:01:01.313+02:00  INFO 5244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
- ¡2023-12-08T10:01:01.451+02:00  INFO 5244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
- •2023-12-08T10:01:02.642+02:00  INFO 5244 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
- ù2023-12-08T10:01:02.838+02:00  INFO 5244 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
- í2023-12-08T10:01:02.952+02:00  INFO 5244 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
- £2023-12-08T10:01:03.653+02:00  INFO 5244 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
- Ü2023-12-08T10:01:03.732+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
- µ2023-12-08T10:01:04.639+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e94b7d
- ã2023-12-08T10:01:04.646+02:00  INFO 5244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
- â2023-12-08T10:01:04.875+02:00  WARN 5244 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
- ﬁ2023-12-08T10:01:07.440+02:00  INFO 5244 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
- Ø2023-12-08T10:01:07.553+02:00  INFO 5244 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
- £2023-12-08T10:01:09.370+02:00  WARN 5244 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
- ø2023-12-08T10:01:12.009+02:00  INFO 5244 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Started StringSearchApplicationTests in 13.091 seconds (process running for 17.564)
+ ¯2023-12-18T17:08:35.119+02:00  INFO 8340 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Starting StringSearchApplicationTests using Java 21.0.1 with PID 8340 (started by Stanislav in C:\Users\Stanislav\Github\FolderSearchEngine)
+ ó2023-12-18T17:08:35.122+02:00  INFO 8340 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : The following 1 profile is active: "docker"
+ ß2023-12-18T17:08:37.190+02:00  INFO 8340 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ ¡2023-12-18T17:08:37.369+02:00  INFO 8340 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+ •2023-12-18T17:08:38.997+02:00  INFO 8340 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ ù2023-12-18T17:08:39.210+02:00  INFO 8340 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+ í2023-12-18T17:08:39.330+02:00  INFO 8340 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+ £2023-12-18T17:08:40.006+02:00  INFO 8340 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+ Ü2023-12-18T17:08:40.077+02:00  INFO 8340 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+ µ2023-12-18T17:08:41.115+02:00  INFO 8340 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38667005
+ ã2023-12-18T17:08:41.121+02:00  INFO 8340 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ â2023-12-18T17:08:41.356+02:00  WARN 8340 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ ﬁ2023-12-18T17:08:43.353+02:00  INFO 8340 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ Ø2023-12-18T17:08:43.470+02:00  INFO 8340 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ £2023-12-18T17:08:44.469+02:00  WARN 8340 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ æ2023-12-18T17:08:45.359+02:00  INFO 8340 --- [    Test worker] s.s.v.w.S.s.StringSearchApplicationTests : Started StringSearchApplicationTests in 10.91 seconds (process running for 15.259)

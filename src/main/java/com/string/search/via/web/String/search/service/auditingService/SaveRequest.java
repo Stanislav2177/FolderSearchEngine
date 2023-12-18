@@ -10,12 +10,11 @@ import java.util.List;
 
 @Service
 public class SaveRequest {
-
-
     @Autowired
     private RequestEntityRepo repo;
 
-    public void save(String clientIp, String type,String methodType, String location, String text) {
+    public void save(String clientIp, String type,String methodType,
+                     String location, String text) {
         RequestEntity entity = new RequestEntity();
         LocalDateTime localDateTime = LocalDateTime.now();
 
